@@ -1,0 +1,33 @@
+{
+  "name": "bdayserver",
+  "version": "1.0.0",
+  "description": "Birthday wishes server",
+  "homepage": "https://github.com/Mohamed-Sillah/bdayserver#readme",
+  "bugs": {
+    "url": "https://github.com/Mohamed-Sillah/bdayserver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamed-Sillah/bdayserver.git"
+  },
+  "license": "ISC",
+  "author": "Mohamed-Sillah",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "prisma": "^6.17.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  }
+}
